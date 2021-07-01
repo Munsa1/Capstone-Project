@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.main-container {
+  background-image: url("https://cdn.cp.adobe.io/content/2/dcx/27ca247e-a832-4873-b3a1-4fe283d01e2a/rendition/preview.jpg/version/1/format/jpg/dimension/width/size/1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .first-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+    background-color: #272a31;
+
+  }
+
+  .first-ul {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    padding: 0 10%;
+  }
+
+  .first-ul a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: small;
+  }
+
+  .sec-nav {
+    display: flex;
+    justify-content: space-between;
+      }
+
+  .sec-ul {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    background-color: white;
+    padding: 0 10%;
+  }
+
+  .sec-ul a {
+    color: black;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: medium;
+}
+
+  .logo {
+    height: 100px;
+
+
+  }
+}
