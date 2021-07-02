@@ -194,4 +194,28 @@ body {
  .speaker-info {
    padding: 5px;
  }
+
+ .partner {
+  text-align: center;
+  background-color: #534f4e;
+  padding: 40px 10px;
+ }
+
+ .partner-header {
+   margin-bottom: 5px;
+   color: white;
+ }
+
+ .bottom-logos {
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px 10%;
+ }
+
+ .bottom-logos img {
+   height: 50px;
+   filter: grayscale(100%) contrast(30%);
+
+ }
 }
