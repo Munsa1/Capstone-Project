@@ -153,4 +153,45 @@ body {
    color: #d3d3d3;
    padding: 10px 10px;
  }
+
+ .speaker-header {
+   text-align: center;
+ }
+
+ .speaker-list {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 60px;
+   padding: 10px 10%;
+ }
+
+ .speaker {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   width: 45%;
+   margin: 15px;
+ }
+
+ .speaker img {
+   height: auto;
+   width: 150px;
+ }
+
+ .grey-underline {
+  width: 30px;
+  margin-top: 15px;
+  border-bottom: 2px solid grey;
+
+ }
+
+ .job-position {
+   color: #ec5242;
+   font-style: italic;
+ }
+
+ .speaker-info {
+   padding: 5px;
+ }
 }
