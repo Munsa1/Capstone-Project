@@ -1,6 +1,5 @@
 
 /* Mobile View design */
-
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +8,7 @@
   color: #272a31;
 }
 
+/* Top Navigation Bar and Second Navigation */
 .first-navigation {
   display: none;
 }
@@ -86,6 +86,7 @@
   color: #ec5242 !important;
 }
 
+/* Main Section */
 .main-container {
   background-image: url("img/bg-img.png");
   background-repeat: no-repeat;
@@ -98,10 +99,12 @@
   color: #ec5242;
   text-align: left;
   margin-bottom: 10px;
+  font-family: cocogoose, sans-serif;
 }
 
 .sec-h1 {
   font-size: 30px;
+  font-family: 'Lato', sans-serif;
 }
 
 .page-par {
@@ -109,6 +112,7 @@
   font-size: 100%;
   width: 100%;
   margin-top: 40px;
+  font-family: 'Lato', sans-serif;
 }
 
 .bold {
@@ -117,10 +121,12 @@
   font-size: 30px;
 }
 
-.bootom-text {
-  color: #d3d3d3;
+.bottom-text {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
 }
 
+/* Main Program Section */
 .main-section {
   background-image: url("img/grey\ img.png");
   text-align: center;
@@ -182,6 +188,7 @@
   padding: 10px 10px;
 }
 
+/* Speaker Section */
 .speaker-sec {
   text-align: center;
   padding: 30px 5px;
@@ -237,6 +244,7 @@
   padding: 20px 40px;
 }
 
+/* Partner Section */
 .partner {
   text-align: center;
   background-color: #444;
@@ -264,6 +272,7 @@
   margin: 15px;
 }
 
+/* Footer Section */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -323,7 +332,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 10px;
     background-color: #272a31;
   }
 
@@ -635,13 +643,10 @@
   }
 
   .bottom-logos {
-    list-style: none;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10px 20px;
-    align-items: center;
-    flex-wrap: wrap;
+    width: auto;
   }
 
   .bottom-logos img {
@@ -653,7 +658,7 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 40px 10%;
+    padding: 40px 20%;
     align-items: center;
   }
 
