@@ -4,25 +4,37 @@ const guests = [
     name: 'Micheal Zondani',
     jobPosition: 'Minister of Agriculture',
     info: 'Works for ministry of agriculture',
-    photo: 'img/speaker-1.jpg',
+    photo: 'img/Speakers/speaker-1.jpg',
   },
   {
     name: 'Edgar Lungu',
     jobPosition: 'President of Zambia',
     info: 'Controls the affirs of the state',
-    photo: 'img/speaker-2.jpg',
+    photo: 'img/Speakers/speaker-2.jpg',
   },
   {
-    name: 'Munsa Mibenge',
-    jobPosition: 'Actor',
-    info: 'Has done acting for eleven years',
-    photo: 'img/speaker-3.jpg',
+    name: 'Emmanuel Ngulube',
+    jobPosition: 'Administration',
+    info: 'handles affairs of the Cooperative',
+    photo: 'img/Speakers/speaker-3.jpg',
+  },
+  {
+    name: 'Lia Mutale',
+    jobPosition: 'Permanent Secretary',
+    info: 'Works for ministry of Home affairs',
+    photo: 'img/Speakers/speaker-4.jpg',
+  },
+  {
+    name: 'Patrick Antonio Lungu',
+    jobPosition: 'Cooperative Chairman',
+    info: 'Sits on and chairs the board of Directors',
+    photo: 'img/Speakers/speaker-6.jpg',
   },
   {
     name: 'Busiwa Liuma',
     jobPosition: 'Actor',
     info: 'Has done acting for eleven years',
-    photo: 'img/speaker-4.png',
+    photo: 'img/Speakers/speaker-6.jpg',
   },
 
 ];
@@ -40,13 +52,28 @@ function guestSection(count) {
                             </div>
                           </li>`).join('');
 }
-
 const speakerList = document.getElementById('speaker-list');
 
-const guestList = guestSection(2);
+const guestList = guestSection();
 speakerList.innerHTML = guestList;
 
 const moreButton = document.getElementById('more-btn');
 moreButton.addEventListener('click', () => {
   speakerList.innerHTML = guestSection(guests.length);
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth < 768) {
+    speakerList.innerHTML = guestSection(2);
+  } else {
+    speakerList.innerHTML = guestSection(6);
+  }
+});
+
+window.addEventListener('load', () => {
+  if (window.innerWidth < 768) {
+    speakerList.innerHTML = guestSection(2);
+  } else {
+    speakerList.innerHTML = guestSection(6);
+  }
 });
