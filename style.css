@@ -39,8 +39,14 @@
   position: absolute;
   top: 0;
   width: 90%;
-  padding: 15px 25px;
+  padding: 45px 25px;
   color: #000;
+  background: url(img/menu.png);
+  background-position: top left;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  height: 40px;
+  margin: 20px;
 }
 
 .fa-bars {
@@ -137,6 +143,7 @@
   color: #272a31;
   font-weight: bolder;
   font-size: 30px;
+  margin-top: 14px;
 }
 
 .bottom-text {
@@ -435,9 +442,10 @@
     display: none;
   }
 
-  #social {
-    color: #fff;
-    background-color: red;
+  .burger {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
   }
 
   .sec-nav {

@@ -20,3 +20,11 @@ document.getElementsByClassName('mobile-a')[1].addEventListener('click', () => {
 document.getElementsByClassName('mobile-a')[2].addEventListener('click', () => {
   mobileMenu.style.display = 'none';
 });
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    mobileMenu.style.display = 'flex';
+  } else {
+    mobileMenu.style.display = 'none';
+  }
+});
