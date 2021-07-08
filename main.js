@@ -1,4 +1,5 @@
 // SPEAKERS SECTION
+const mobileMenu = document.getElementById('mobile-menu');
 const guests = [
   {
     name: 'Micheal Zondani',
@@ -67,6 +68,7 @@ window.addEventListener('resize', () => {
     speakerList.innerHTML = guestSection(2);
   } else {
     speakerList.innerHTML = guestSection(6);
+    mobileMenu.style.display = 'flex';
   }
 });
 

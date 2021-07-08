@@ -36,10 +36,11 @@
 }
 
 .menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 90%;
   padding: 15px 25px;
+  color: #000;
 }
 
 .fa-bars {
@@ -68,6 +69,7 @@
 .close-btn {
   margin-top: 0;
   color: black;
+  position: fixed;
 }
 
 .sec-ul a {
@@ -100,6 +102,22 @@
   text-align: left;
   margin-bottom: 10px;
   font-family: cocogoose, sans-serif;
+}
+
+.top-h1-about {
+  color: #ec5242;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sec-h1-about {
+  color: #ec5242;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+
+  /* width: 80%; */
+  margin: 0 auto;
 }
 
 .sec-h1 {
@@ -152,7 +170,7 @@
   flex-direction: column;
   list-style: none;
   margin: 10px 15px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding: 0;
 }
 
@@ -289,16 +307,22 @@
   flex-direction: column;
 }
 
-.sec-h1-about {
-  color: #ec5242;
-  font-size: 30px;
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
+.email-link {
+  margin-top: 10px;
 }
 
-.email-link {
-  margin-top: 20%;
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 25px auto;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  width: 90%;
 }
 
 .past-projects {
@@ -306,6 +330,63 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.project-1 {
+  background-image: url("img/proj-1.png");
+}
+
+.project-2 {
+  height: 150px;
+  background-image: url("img/proj-2.jpg");
+}
+
+.center-about {
+  text-align: center;
+}
+
+.page-par-about {
+  color: #272a31;
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 10px 20px;
+}
+
+.about-h2 {
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.about-par {
+  text-align: center;
+  margin: 10px 30px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.join-btn {
+  width: 80%;
+}
+
+.about-logo {
+  width: 90%;
+  border: 1px solid #d3d3d3;
+  margin: 20px auto;
+  padding: 20px 50px;
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -425,7 +506,6 @@
   }
 
   .sec-h1-about {
-    font-family: 'Cocogoose', sans-serif;
     color: #ec5242;
     font-size: 50px;
     text-align: center;
@@ -560,9 +640,9 @@
   }
 
   .orange-underline {
-    width: 70px;
+    width: 90px;
     margin: 0 auto;
-    border-bottom: 5px solid #ec5242;
+    border-bottom: 3px solid #ec5242;
     margin-bottom: 20px;
   }
 
@@ -616,6 +696,10 @@
     flex-wrap: wrap;
     margin-top: 60px;
     padding: 10px 10%;
+  }
+
+  .join-btn {
+    display: none;
   }
 
   .speaker {
@@ -700,5 +784,9 @@
 
   .more-btn {
     display: none;
+  }
+
+  .project {
+    font-size: 1rem;
   }
 }
