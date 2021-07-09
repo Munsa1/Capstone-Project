@@ -61,6 +61,9 @@ speakerList.innerHTML = guestList;
 const moreButton = document.getElementById('more-btn');
 moreButton.addEventListener('click', () => {
   speakerList.innerHTML = guestSection(guests.length);
+  /* eslint-disable */
+  event.target.style.display = 'none';
+  /* eslint-disable */
 });
 
 window.addEventListener('resize', () => {

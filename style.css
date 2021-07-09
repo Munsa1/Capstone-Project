@@ -22,7 +22,7 @@
   display: block;
 }
 
-#close-btn {
+.close-btn {
   display: block;
 }
 
@@ -49,14 +49,14 @@
   margin: 20px;
 }
 
-.fa-bars {
+/* .fa-bars {
   color: black !important;
   font-size: 180%;
 }
 
 .fa-times {
   color: white;
-}
+} */
 
 .sec-ul {
   display: none;
@@ -76,6 +76,10 @@
   margin-top: 0;
   color: black;
   position: fixed;
+}
+
+.sec-ul li:first-child {
+  margin-bottom: 30px;
 }
 
 .sec-ul a {
@@ -192,6 +196,7 @@
 
 .blocks i {
   margin: 19px;
+  font-size: 25px;
 }
 
 .blocks h2 {
@@ -405,8 +410,13 @@
     color: #272a31;
   }
 
+  .social {
+    color: white;
+  }
+
   .menu {
-    display: none !important;
+    width: 0;
+    display: none;
   }
 
   .main-container {
@@ -495,7 +505,7 @@
   .button {
     border: 3px solid #ec5242;
     padding: 5px 10px;
-    color: #ec5242 !important;
+    color: #ec5242;
   }
 
   .first-h1 {
@@ -686,6 +696,7 @@
 
   .see-more {
     color: #d3d3d3;
+    display: block;
   }
 
   .fas {

@@ -1,67 +1,69 @@
-# Capstone-Project
-![](.img/Screenshot.png)
+# Capstone Project
 
-# Conference Website
+> This project is about.
 
-> Meetups and professional conferences have grown into every possible industry around the world. The Internet makes it much easier for people to connect and attend these conferences. 
-> 
->The website: 
->1. advertises govenment programs
->2. helps farmers learn new farming techniques
+![screenshot](Meanwood Farmers Cooperative Conference - Google Chrome 09_07_2021 11_06_21 am.png)
+
+Additional description about the project and its features.
 
 ## Built With
 
-- HTML
-- CSS
-- Javascript
+- HTML 5
+- CSS 3
+- Javascript Vanilla
 
 ## Live Demo
 
 [Live Demo Link](https://munsa1.github.io/Capstone-Project/)
 
+
 ## Getting Started
-
-**This is ready for use Conference website**
-**Modify this file to match your project, remove sections that don't apply.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-  - NodeJS
-### Setup
-- Make sure you have `Node NPM` installed on your computer
-- Clone or download this repo on your machine: `git clone https://github.com/Munsa1/Capstone-Project`
-- Enter project directory with command `cd Conference`
-### Install
-- Run `npm install`
-### Usage
-- Open `index.html` in your browser
 
-## Author
+-Local machine web browser
+
+### Setup
+
+-clone the repository using (https://github.com/Munsa1/Capstone-Project)
+
+### Install
+-Any HTML text approved editor, etc. VS Code, Brackets, Atom
+
+
+## Authors
 
 👤 **Munsa Mibenge**
 
- GitHub: [@Munsa1](https://github.com/munsa1)
+GitHub: [@Munsa1](https://github.com/munsa1)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-* [Original design idea by Cindy Shin in Behance.](https://www.behance.net/adagio07)
-* [ Creative Commons license of the design.](https://creativecommons.org/licenses/by-nc/4.0/)
-* [GitHub](https://www.github.com)
-* [FontAwesome Icons](https://fontawesome.com)
-* [Google Fonts](https://fonts.google.com)
-* [Microverse](https://microverse.org)
+## Acknowledgments
 
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
