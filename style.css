@@ -24,6 +24,9 @@
 
 .close-btn {
   display: block;
+  margin-top: 0;
+  color: black;
+  position: fixed;
 }
 
 .sec-nav {
@@ -72,10 +75,13 @@
   margin: 0;
 }
 
-.close-btn {
-  margin-top: 0;
-  color: black;
-  position: fixed;
+.blocks li {
+  margin: 10px auto;
+  background-color: #3d3a3a7c;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  width: 95%;
 }
 
 .sec-ul li:first-child {
@@ -183,15 +189,7 @@
   margin: 10px 15px;
   margin-bottom: 10px;
   padding: 0;
-}
-
-.blocks li {
-  margin: 10px auto;
-  background-color: #3d3a3a7c;
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-  width: 95%;
+  font-size: 1rem;
 }
 
 .blocks i {
@@ -245,13 +243,14 @@
 }
 
 .speaker-info {
-  text-align: center;
+  text-align: left;
   padding: 5px;
 }
 
 .speaker img {
-  height: auto;
+  height: 200px;
   width: 150px;
+  min-width: 150px;
 }
 
 .grey-underline {
@@ -416,7 +415,10 @@
 
   .menu {
     width: 0;
-    display: none;
+    height: 0;
+    color: white;
+    position: absolute;
+    left: -2000px;
   }
 
   .main-container {
@@ -665,21 +667,22 @@
   }
 
   .blocks {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
     list-style: none;
-    margin: 10px 10%;
+    margin: 10px 5%;
     margin-bottom: 50px;
   }
 
   .blocks li {
-    margin: 10px;
     background-color: #3d3a3a7c;
-    padding: 10px 0;
-    width: 25%;
+    padding: 10px;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     border: 2px solid transparent;
+    padding-bottom: 50px;
   }
 
   .blocks li:hover {
@@ -692,6 +695,7 @@
 
   .blocks p {
     color: #d3d3d3;
+    font-size: 14px;
   }
 
   .see-more {
@@ -724,17 +728,15 @@
   .speaker {
     list-style: none;
     display: flex;
-    justify-content: space-between;
     width: 45%;
     margin: 15px;
   }
 
-  .speaker-info { text-align: left; }
-
-  .speaker img {
-    height: auto;
-    width: 150px;
+  .speaker-info { 
+    text-align: left;
+    padding-left: 15px; 
   }
+
 
   .grey-underline {
     width: 30px;
