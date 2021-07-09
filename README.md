@@ -2,7 +2,7 @@
 
 > This project is about.
 
-![screenshot](Meanwood Farmers Cooperative Conference - Google Chrome 09_07_2021 11_06_21 am.png)
+![screenshot](Meanwood.png)
 
 Additional description about the project and its features.
 
