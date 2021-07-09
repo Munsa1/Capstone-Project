@@ -32,9 +32,9 @@ const guests = [
     photo: 'img/Speakers/speaker-6.jpg',
   },
   {
-    name: 'Busiwa Liuma',
-    jobPosition: 'Actor',
-    info: 'Has done acting for eleven years',
+    name: 'Patrick Antonio Lungu',
+    jobPosition: 'Cooperative Chairman',
+    info: 'Sits on and chairs the board of Directors',
     photo: 'img/Speakers/speaker-6.jpg',
   },
 
@@ -59,11 +59,9 @@ const guestList = guestSection();
 speakerList.innerHTML = guestList;
 
 const moreButton = document.getElementById('more-btn');
-moreButton.addEventListener('click', () => {
+moreButton.addEventListener('click', (event) => {
   speakerList.innerHTML = guestSection(guests.length);
-  /* eslint-disable */
   event.target.style.display = 'none';
-  /* eslint-disable */
 });
 
 window.addEventListener('resize', () => {
